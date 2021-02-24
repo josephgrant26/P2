@@ -21,3 +21,5 @@ DeepPtr<B> dove B e qualche tipo base della gerarchia ` G.
 cazione. Non e richiesto l’uso obbligatorio della libreria standard di I/O, ` e anche possibile valutare l’opportunit ` a di usare le classi per `
 l’I/O fornite da Qt. Per il formato dei file di I/O si possono considerare formati come XML, JSON o altri formati per lo scambio di
 dati (AXON, YAML, etc.)
+
+https://elearning.unipd.it/math/pluginfile.php/88483/mod_resource/content/1/specificaProgetto_PaO_20-21.pdf
