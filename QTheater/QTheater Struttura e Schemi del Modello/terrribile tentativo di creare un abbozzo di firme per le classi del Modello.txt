@@ -1,0 +1,71 @@
+﻿Film:
+private: film: string nome, int prezzo def, char sala
+
+public: 
+	addFilm(..)
+	getFilm(…)
+	removeFilm(..)
+
+
+Sala:
+private: Sala: int n_posti, (???) strutturaPosti 
+// non so come implementare la griglia di posti per la sala
+
+public: 
+	addSala(..)
+	getSala(..)
+	removeSala(..)
+
+
+Biglietto:
+private: Biglietto: int prezzo, string tipo (//se è intero o ridotto, forse bool?), string postoSala (//tipo A2)
+
+public:
+	makeBigl(..)
+	getBigl(..)
+	removeBigl(..)
+
+Prodotti:
+private: int prezzo, char Nome
+
+public:
+	addProdotto(..)
+	getProdotto(..)
+	removeProdotto(..)
+	editProdotto(..)
+
+Bar:
+private: Scontrino:lista di prodotti coi prezzi→ viene passato al controller che poi fa la somma
+
+public:
+	createScontrino(..)
+	getScontrino(..)
+	removeScontrino(..)
+
+
+
+
+
+
+
+
+Film_Nol:
+private Film(//come sopra ma senza ‘char sala’, usiamo lo stesso tipo e mettiamo 0 per film noleggio?)
+
+public:
+
+	addFilm(..)
+	getFilm(…)
+	removeFilm(..)
+
+Noleggio:
+private: int code
+
+public:
+	createCode(..)
+	getCode(..)
+	removeCode(..)
+
+Cassa/Admin:
+
+//non saprei come implementarle
